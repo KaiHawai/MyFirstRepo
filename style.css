@@ -4,6 +4,14 @@ main{
     grid-template-columns: 4fr 1fr;
 }
 
+p {
+    font-family: "Times New Roman", Times, serif;
+  font-size: 45px;
+}
+
+li {
+  font:times
+}
 @media screen and (max-width: 810px){
 
     main{
@@ -15,7 +23,6 @@ main{
         "section section"
         "footer footer"
         "nav nav"
-    
     }
 }
 
@@ -28,19 +35,15 @@ main{
         "section nav"
         "footer nav"
     }
-    
-    
 }
-
-
 
 header{
     grid-area: header;
-    background: lightblue;
+    background: green;
 }
 footer{
     grid-area: footer;
-    background: lightslategrey;
+    background: red;
 }
 section{
     grid-area: section;
@@ -51,7 +54,7 @@ section{
 }
 nav{
     grid-area: nav;
-    background: lightcoral;
+    background: lightgray;
 }
 
 article{
